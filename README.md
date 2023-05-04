@@ -353,6 +353,7 @@ break down:
         0 \* 5 + 48 \* 4 + 1.5 \* 21 + 188 \* 1 = 411.5
 3. Divide the total CO<sub>2</sub> emissions by the equivalent capacity calculated above to get the of CO<sub>2</sub> emissions per-economy passenger: 173236 kg CO<sub>2</sub> / 411.5 = 420.99 kg CO<sub>2</sub>
 4. Emissions per-passenger for other cabins can be derived by multiplying for the corresponding cabin factor.
+  * First[^1]: 420.99 * 5 = 2104.95 kg CO<sub>2</sub>
   * Business: 420.99 * 4 = 1683.96 kg CO<sub>2</sub>
   * Premium Economy: 420.99 * 1.5 = 631.49 kg CO<sub>2</sub>
   * Economy = 420.99 kg CO<sub>2</sub>
@@ -361,6 +362,7 @@ break down:
   * Premium Economy: 631.49 / 0.845 = 747.33 kg CO<sub>2</sub>
   * Economy = 420.99 / 0.845 = 498.21 kg CO<sub>2</sub>
 
+[^1] Note we calculate and output first class emissions even when our data suggest there are no first class. 
 
 ## Legal base for model data sharing
 
